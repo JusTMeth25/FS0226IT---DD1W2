@@ -24,8 +24,8 @@ console.log(`Ciao, mi chiamo ${nome} ${cognome}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/*const a = 10;
-const b = 3;
+let a = 10;
+let b = 3;
 
 console.log(`${a} + ${b} = ${a + b}`);
 console.log(`${a} - ${b} = ${a - b}`);
@@ -33,7 +33,7 @@ console.log(`${a} * ${b} = ${a * b}`);
 console.log(`${a} / ${b} = ${a / b}`);
 console.log(`${a} % ${b} = ${a % b}`);
 console.log(`${a} ** ${b} = ${a ** b}`);
-*/
+
 /* ESERCIZIO 3 — Età nel tempo
    const annoNascita (scegli un anno).
    const annoCorrente = 2026.
@@ -70,7 +70,8 @@ console.log(`Età: 25 - Maggiorenne: ${minEta >= 18}`);
 let myString = "Pippo";
 let myNumber = 7;
 let myBoolean = true;
-let vuoto = null; /* typeof null ha valore intenzionale e si usa quando non sappiamo quando arriverà questo valore. Inoltre,occupa uno stack di memoria. */
+let vuoto =
+  null; /* typeof null ha valore intenzionale e si usa quando non sappiamo quando arriverà questo valore. Inoltre,occupa uno stack di memoria. */
 let nonDefinito;
 
 console.log(`testo è di tipo: ${typeof myString}`);
@@ -141,18 +142,18 @@ console.log(`12 è pari E divisibile per 3: ${n % 2 === 0 && n % 3 === 0}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const a = 10;
-const b = 10;
-const c = 10; 
-const perimetro = a + b + c;
+const A = 10;
+const B = 10;
+const C = 10;
+const perimetro = A + B + C;
 let triangle;
 
-if (a === b && b === c) {
-   triangle = "equilatero";
-} else if (a === b || a === c || b === c) {
-   triangle = "isoscele";
+if (A === B && B === C) {
+  triangle = "equilatero";
+} else if (A === B || A === C || B === C) {
+  triangle = "isoscele";
 } else {
-   triangle = "scaleno";
+  triangle = "scaleno";
 }
 
 console.log("Triangolo " + triangle + ", perimetro " + perimetro);
