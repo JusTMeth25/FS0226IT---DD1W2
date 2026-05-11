@@ -130,9 +130,9 @@ console.log("10" * "2");
 /* SCRIVI QUI LA TUA RISPOSTA */
 let n = 12;
 
-console.log(`12 è pari: ${n % 2 === 0}`);
-console.log(`12 è divisibile per 3: ${n % 3 === 0}`);
-console.log(`12 è pari E divisibile per 3: ${n % 2 === 0 && n % 3 === 0}`);
+console.log(`n è pari: ${n % 2 === 0}`);
+console.log(`n è divisibile per 3: ${n % 3 === 0}`);
+console.log(`n è pari E divisibile per 3: ${n % 2 === 0 && n % 3 === 0}`);
 
 /* --EXTRA-- ESERCIZIO 9 — Triangolo
    Tre const "a", "b", "c" (lunghezze dei lati).
@@ -142,9 +142,10 @@ console.log(`12 è pari E divisibile per 3: ${n % 2 === 0 && n % 3 === 0}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const A = 10;
-const B = 10;
-const C = 10;
+let A = 10;
+let B = 10;
+let C = 10;
+
 const perimetro = A + B + C;
 let triangle;
 
